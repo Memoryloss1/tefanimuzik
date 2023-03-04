@@ -104,7 +104,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💌", url=f"{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💌", url=f"https://t.me/tefanikitap"),
         ],
     ]
     return buttons
