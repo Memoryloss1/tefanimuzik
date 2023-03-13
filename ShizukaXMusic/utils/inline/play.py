@@ -163,7 +163,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"https://t.me/tefanikitap",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -188,7 +188,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"https://t.me/tefanikitap",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
@@ -254,7 +254,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"https://t.me/tefanikitap",
             ),
         ],
         [
